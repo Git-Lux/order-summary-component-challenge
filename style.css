@@ -1,0 +1,128 @@
+html {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    color: hsl(223, 47%, 23%);
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+h2 {
+   color: hsl(223, 47%, 23%);
+   font-weight: 900;
+   font-size: 0.9rem;
+   margin: 0 2.5rem;
+   padding-bottom: 0.3rem;
+}
+
+.container {
+    max-width: 350px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.content > p {
+    color: hsl(224, 23%, 55%);
+    padding: 0 2rem;
+    line-height: 1.5rem;
+}
+
+.plan {
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 20px;
+    padding: 1rem;
+    margin: 1.4rem;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+.plan a {
+    color:hsl(245, 75%, 52%);
+}
+
+.plan a:hover {
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+}
+
+.price > p {
+    color: hsl(224, 23%, 55%);
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+}
+
+.buttons .proceed {
+    font-family: 'Red Hat Display';
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-weight: 700;
+    font-size: 0.9rem;
+    border: 2px solid hsl(245, 75%, 52%);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 15px;
+}
+
+.proceed:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.cancel {
+    font-family: 'Red Hat Display';
+    background-color: white;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+    font-size: 0.9rem;
+    padding: 1rem;
+    border: 0;
+}
+
+.cancel:hover {
+    cursor: pointer;
+    color: black;
+}
+
+header img {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.attribution { 
+    margin-top: 1rem;
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
